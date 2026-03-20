@@ -9,6 +9,10 @@
     ],
     "rewrites": [
         {
+      "source": "/tg/:path*",
+      "destination": "https://api.telegram.org/:path*"
+        },
+        {
             "source": "/t/p/:path*",
             "destination": "https://image.tmdb.org/t/p/:path*"
         },
